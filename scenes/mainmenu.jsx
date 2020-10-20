@@ -18,13 +18,7 @@ function MainMenu() {
         return <>
             <span>Opa</span>
             <h1>oi</h1>
-        </>
-    }
-    function Paises({ pais }) {
-        return pais.map((Bandeira) => {
-            return <> {Bandeira.nome} </>
-        })
-    }
+            
     const p1 = {}
     const p2 = {}
 
