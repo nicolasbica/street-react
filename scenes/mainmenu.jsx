@@ -27,25 +27,5 @@ function MainMenu() {
     }
     const p1 = {}
     const p2 = {}
-    const paises = [{
-        nome: 'USSR',
-        image: null
-    },
-
-    {
-        nome: 'Japan',
-        image: null
-    },
-
-    {
-        nome: 'Brazil',
-        image: null
-    },
-
-    {
-        nome: 'India',
-        image: null
-    },
-
 
 export default MainMenu
