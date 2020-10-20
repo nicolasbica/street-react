@@ -1,11 +1,51 @@
 import React from 'react'
 
 function MainMenu() {
-    return <div>
-        <h3>
-            Player Select
-        </h3>
-    </div>
-}
+    function Titulo() {
+        return <h1>Player Select</h1>
+    }
+    function MapaMundi(pais) {
+        return <>
+            <h1>{pais.nome}</h1></>
+    }
+    function ListaPersonagens({ personagens }) {
+        return personagens.map((personagemSelecionado) => {
+            return <> {personagemSelecionado.nome} </>
+        })
+    }
+
+    function Personagem() {
+        return <>
+            <span>Opa</span>
+            <h1>oi</h1>
+        </>
+    }
+    function Paises({ pais }) {
+        return pais.map((Bandeira) => {
+            return <> {Bandeira.nome} </>
+        })
+    }
+    const p1 = {}
+    const p2 = {}
+    const paises = [{
+        nome: 'USSR',
+        image: null
+    },
+
+    {
+        nome: 'Japan',
+        image: null
+    },
+
+    {
+        nome: 'Brazil',
+        image: null
+    },
+
+    {
+        nome: 'India',
+        image: null
+    },
+
 
 export default MainMenu
